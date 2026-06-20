@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ⚖️ Nyāya Philosophy Knowledge Engine (`v2026.6.20`)
 
-## Getting Started
+An enterprise-grade, high-fidelity dynamic Next.js application built to index, parse, and visually deconstruct the classical text parameters of Sage Akṣapāda Gautama's **Nyāya Sūtras**.
 
-First, run the development server:
+This platform bridges ancient Sanskrit analytical realism with modern frontend system architecture. It models the core logical taxonomies, input checking channels, and error-neutralization lifecycles as a deterministic software pipeline.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🗺️ System Topology & Workspace Mapping
+
+The repository leverages the Next.js App Router layout engine, mapping dynamic routing paths cleanly to nested database objects:
+
+```text
+src/
+├── app/
+│   ├── globals.css         # Custom thin webkit scrollbar overrides & dark canvas base
+│   ├── layout.js          # Root document context. Injects global Preloader, Cursor, Navbar, and Footer
+│   ├── page.js            # Platform entry point orchestration layer (Loads Spatial grid modules)
+│   └── chapters/
+│       └── [chapterId]/
+│           ├── page.jsx    # Chapter Viewport: Filters verses array into serialized Āhnikas
+│           └── verses/
+│               └── [verseId]/
+│                   └── page.jsx  # Leaf node: Decodes a single sūtra's dialectical metadata parameters
+├── components/
+│   ├── Navbar.jsx         # Status bar tracking live metrics (4 Pramāṇas / 16 Padārthas) across viewports
+│   ├── Footer.jsx         # Structural closure panel showing compilation logs and licensing tracks
+│   ├── Preloader.jsx      # Boot routine executing Sūtra 1.1.2 reverse error-neutralization algorithms
+│   ├── NyayaCursor.jsx    # High-performance atomic Manas (Aṇu) cursor follower using GSAP
+│   └── spatial/
+│       ├── ChaptersPage.jsx       # Dynamic routing entry gateways for individual chapters
+│       ├── NyayaAiIntegration.jsx # Advanced verification middleware hooks
+│       ├── NyayaHero.jsx          # Parallax engine with responsive text-based pipeline graphic
+│       ├── NyayaModernFuture.jsx  # Analytical realism mapping dashboards
+│       ├── PramanasModule.jsx     # Sensor port layout grid checking sensori-deductive bounds
+│       ├── SyllogismSequence.jsx  # 5-step formal proof compiler visual tracking bars
+│       └── UpgradeMap.jsx         # Metaphysical asset mapping blocks
+├── data/
+│   └── nyayaDb.json       # Complete 5-tier compiled data substrate containing all 528 sūtras
+└── lib/
+    └── utils.js           # Shared utility layer managing dynamic layout style unions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Core Metaphysical Architecture Specs
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The front-end user experience is tightly bound to explicit definitions from the Nyāya text substrate:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. The Single-Threaded Router (Manas)
 
-## Learn More
+- **Philosophical Constant:** Per Sūtra 3.2.57, the mind tool (Manas) is an indivisible atomic point particle (Aṇu). It hops at high speeds between sensors because humans can only process a single serialized frame of focused consciousness per clock cycle.
 
-To learn more about Next.js, take a look at the following resources:
+### 2. The Reverse Error-Neutralization Boot Sequence
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Philosophical Constant:** Per Sūtra 1.1.2, suffering is an un-optimized chain reaction. Erasing the root delusion node sequentially breaks downstream defects, terminating the lifecycle generation loops.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Code Implementation (Preloader.jsx):** The startup screen runs an automated loop that counts from 0% to 100%, flashing confirmation flags as it clears out MITHYĀ_JÑĀNA (False Knowledge), DOṢA (Defects), PRAVṚTTI (Activity), JANMA (Birth), and DUḤKHA (Pain) before unmounting the splash layer.
 
-## Deploy on Vercel
+## 🚀 Local Installation & Deployment Runtime
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Follow this precise execution sequence to spin up the local development environment or build production assets.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Prerequisite Dependencies**
+Verify your terminal machine has Node.js (>= 18.17.0) initialized.
+
+### 1. Clone the Code Repository Base
+
+```Bash
+git clone [https://github.com/yourusername/nyaya-philosophy-engine.git](https://github.com/yourusername/nyaya-philosophy-engine.git)
+cd nyaya
+```
+
+### 2. Hydrate Project Packages
+
+Install the required development core libraries, layout components, and animation drivers:
+
+```Bash
+npm install
+```
+
+### 3. Initialize Missing UI Elements
+
+If your environment triggers path compilation errors regarding shadcn primitives, re-verify and add the component files from the registry:
+
+```Bash
+npx shadcn@latest add badge
+npx shadcn@latest add card
+```
+
+### 4. Run the Development Server Engine
+
+Launch the project using Next.js Next-gen Turbopack compiler architecture:
+
+```Bash
+npm run dev
+```
+
+Open your browser network viewport to http://localhost:3000 to stream the live interface logs.
+
+5. Compile the Production Build Matrix
+   To optimize file sizing, compile code vectors into high-performance static server assets:
+
+```Bash
+npm run build
+npm start
+```

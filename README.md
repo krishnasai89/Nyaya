@@ -96,8 +96,9 @@ npm run dev
 
 Open your browser network viewport to http://localhost:3000 to stream the live interface logs.
 
-5. Compile the Production Build Matrix
-   To optimize file sizing, compile code vectors into high-performance static server assets:
+### 5. Compile the Production Build Matrix
+
+To optimize file sizing, compile code vectors into high-performance static server assets:
 
 ```Bash
 npm run build
